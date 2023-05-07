@@ -1,0 +1,261 @@
+
+<!doctype html>
+<html>
+<head>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-73JJD6NMYP"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-73JJD6NMYP');
+</script>
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3670950236670972"
+     crossorigin="anonymous"></script>
+	
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-210000222-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-210000222-1');
+</script>
+	
+	<meta charset="utf-8">
+	<meta name="description" content="DICOM_Luke_Accident_Project">
+	<meta name="keywords" content="SARS-CoV-2, Coronavirus, Koronawirus, Poland, Polska, Lower Silesia, Dolnośląskie, Wroclaw, Wrocław, Mountain Deer, Jelenia Góra, Giant Mountains District, Powiat Karkonoski, infections, zakażeń, infection, zakażenie, cases, przypadki, current, aktualne, data, dane, 10000, biohazard, zagrożenie biologiczne, forecast, COVID-19, COVID, increase, przyrost, #StopCovid, #SzczepimySię, App, Aplikacja, Apka, Luke, Blue, Łukasz Andruszkiewicz, blox, population, populacja, poziom zaszczepienia, vacination level, Zoning, Strefy, Vaccination, Szczepienie, Python, Open Data, Otwarte Dane, Selenium, Data Wrapper, CouplerIO, Data Science, Data Visualization, Wizualizacja Danych, Big Data, Ubuntu Server, Cognitive Science, Kognitywistyka, Open To Work" >
+	<meta name="author" content="Łukasz Andruszkiewicz">
+	<meta name="creator" content="BLOX -  - SOFTWARE FORGE">
+	<meta name="robots" content="index, follow">
+	
+	<title>DICOM_Luke_Accident_Project</title>
+	
+	<link rel="icon" type="image/x-icon" href="https://dane.gov.pl/favicon.ico">
+	<link rel="stylesheet" href="https://scv2pl.github.io/SCV2PL_V_3.0-en/style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	
+</head>
+
+
+<body style="background-color: #313b4e ; color: #98c13d">
+	
+<hr class="hr3">
+<hr class="hr4">
+<br>
+<TABLE bgcolor="#313b4e"width="100%"style="border: 1px solid red; border-radius: 6px;">
+<TD valign=top bgcolor=#313b4e style="width: 0px;">
+<center>
+<div>	
+  <div class="topnav">
+  <a href="#home" class="active">DICOM - Luke Accident Project</a>
+  <div id="myLinks">
+    <a href="#INTR"class="active">Introduction</a>
+    <a href="#PNS"class="active">Zoning + 14D Slider</a>
+    <a href="#PNS+14DT"class="active">Zoning + 14-Day Trend</a>
+    <a href="#ZVSPZ"class="active">Infections vs Vaccination Level</a>
+    <a href="#ZGVSPZ"class="active">Deaths vs Vaccination Level</a>
+    <a href="#DIID"class="active">Daily Increase In Deaths</a>
+    <a href="#DPP"class="active">Booster Dose - Districts</a>
+    <a href="#Ś7D"class="active">7-Day Average Of Infections</a>
+    <a href="#dr"class="active">Death Rate SARS-CoV-2</a>
+    <a href="#CSVV"class="active">CSV Data Visualization For Voivodeships</a>
+    <a href="https://scv2pl.github.io/scv2pl-en/"target="_blank"class="active">SARS-CoV-2_PL_V_2.0</a>
+    <a href="https://github.com/LukeBlueLOx/SARS-CoV-2_PL_V_2.0"target="_blank"class="active">GitHub</a>
+    <a href="https://blox-land.onrender.com"target="_blank"class="active">I Will Take Up a Work - PORTFOLIO</a>
+  </div>
+  <a href="javascript:void(0);" class="iconblock" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+</TD>
+</TABLE>
+<br>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+</script>
+	
+<button onclick="topFunction()" id="myBtn" title="Go To Top">⏫</button>
+<script src="https://scv2pl.github.io/myBtn.js"></script>
+	
+<a id="INTR">
+<hr class="hr3">
+<hr class="hr4">
+<br>
+<TABLE bgcolor="#313b4e"width="100%"style="border: 1px solid red; border-radius: 6px;">
+<TD valign=top bgcolor=#313b4e style="width: 0px;">
+<br>
+<br>
+<center>
+<div class="col l500">
+<span class="english">
+2023-03-23 
+<br>
+EN: Introduction
+<br>
+<br>
+Analytical tool - designed to generate time series and their visualization in order to analyze the course of the SARS-CoV-2 virus epidemic in Poland. The preview presents the possibilities of the application at the current stage - to generate and visualize the time series presented below from 2021-12-09 to the current day. The beginning of this period is related to the start of vaccination reporting - booster dose from 2021-11-25. Due to the fact that - the maximum range of time series generation for visualization: for one run of the application, from the date entered by the user is 14 days back, the starting date is 2021-12-09. If any university, company or institution would be interested in further development of such software - I am open to sponsoring, subsidizing or employment proposals: to develop and complete the application for the entire reporting period of the SARS-CoV-2 virus epidemic in Poland, based on existing data. My work on the application will now slow down significantly - but as I mentioned earlier: I would very much like to undertake its further development 8 hours a day, with full passion and commitment for a fee. I am still learning programming and this is a presentation of the skills I have acquired so far in order to take up employment related to the technologies and software that I use - I am open to taking up a job and any related proposals. I intend to continue to devote my free time to the development of this application, improvements and any corrections - in order to learn and improve as a programmer: free of charge, but this way the deadline for completing the complete application and making the software created by me available under the Open Source license may be quite distant.
+<br>
+<br>
+Best Wishes From The "Giant Mountains" in Poland - Polish Name "Karkonosze"
+<br>
+✌💙💚♻️🌌🚀🌎🌍🌏🛰🌌♻️💚💙✌
+<br>
+Łukasz "Luke Blue" Andruszkiewicz
+<br>
+<br>
+<br>
+<span class="polish">
+2023-03-23
+<br>
+PL: Wprowadzenie
+<br>
+<br>
+Narzędzie analityczne - zaprojektowane do generowania szeregów czasowych i ich wizualizacji w celu analizy przebiegu epidemii wirusa SARS-CoV-2 w Polsce. Zapowiedź prezentuje możliwości aplikacji na obecnym etapie - do generowania i wizualizowania zaprezentowanych poniżej szeregów czasowych od dnia 2021-12-09 do dnia bieżącego. Początek tego okresu związany jest z rozpoczęciem raportowania szczepień - dawką przypominającą od dnia 2021-11-25. Ze względu że - maksymalny zakres generowania szeregu czasowego dla wizualizacji: dla jednego przebiegu aplikacji, od wprowadzonej daty przez użytkownika wynosi 14 dni wstecz, datą początkową jest właśnie 2021-12-09. Jeśli jakaś uczelnia, firma czy instytucja byłaby zainteresowana dalszym rozwojem takiego oprogramowania - jestem otwarty na propozycje sponsoringu, dotowania lub zatrudnienia: aby rozwinąć i ukończyć aplikację dla całego okresu raportowania epidemii wirusa SARS-CoV-2 w Polsce, na podstawie istniejących danych. Moje prace nad aplikacją teraz znacznie zwolnią - lecz jak wspomniałem wcześniej: bardzo chętnie podjąłbym się jej dalszemu rozwojowi po 8h dziennie, z pełną pasją i zaangażowaniem odpłatnie. Wciąż uczę się programownia i jest to prezentacja zdobytych dotychczas przeze mnie umiejętności w celu podjęcia zatrudnienia, związanego z technologiami i oprogramowaniem których używam - jestem otwarty na podjęcie pracy i wszelkie propozycje z tym związane. Wolny czas zamierzam w dalszym ciągu poświęcać na rozwój tej aplikacji, udoskonalenia i wszelkie poprawki - w celu nauki i doskonalenia się jako programista: nieodpłatnie, lecz tą drogą termin ukończenia kompletnej aplikacji i udostępnienie stworzonego przeze mnie oprogramowania na licencji Open Source może być dość odległy.
+<br>
+<br>
+Serdeczne Pozdrowienia z "Gór Olbrzymich" w Polsce - Polska Nazwa "Karkonosze"
+<br>
+✌💙💚♻️🌌🚀🌎🌍🌏🛰🌌♻️💚💙✌
+<br>
+Łukasz "Luke Blue" Andruszkiewicz
+<br>
+<br>
+<br>
+<span class="english">
+EN: The application has been designed in such a way as to check whether the required csv files to create the time series exist - if not: they are created and added to the database with csv files. Then the application asks the user whether to generate and publish visualizations based on the generated time series - on the Internet under the following address:
+<br>
+<a href="https://scv2pl.github.io/SCV2PL_V_3.0-en"class="link1"target="_blank">https://scv2pl.github.io/SCV2PL_V_3.0-en</a>
+<br>
+<span class="polish">
+PL: Aplikacja została zaprojektowana w taki sposób, aby sprawdzać czy wymagane pliki csv do utworzenia szeregów czasowych istnieją - jeśli nie: zostają one utworzone i dodane do bazy danych z plikami csv. Następnie aplikacja pyta użytkownika: czy wygenerować i opublikować wizualizacje na podstawie wygenerowanych szeregów czasowych - w inetrnecie pod adresem: 
+<br>
+<a href="https://scv2pl.github.io/SCV2PL_V_3.0-en"class="link2"target="_blank">https://scv2pl.github.io/SCV2PL_V_3.0-en</a>
+</div>
+<br>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/kovWI5gmTCc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<br>
+<br>
+<br>
+<div class="col l500">
+<span class="english">
+#Python #Plotly #Dash #Pandas #PyCharm #Ubuntu #GitHub #GoogleSheets #GoogleCloud #GCP #Datawrapper #Render #Heroku #Django #PostgreSQL #Postgres #SQL #RPA
+<br>
+<br>
+<br>
+#PORTFOLIO - #OpenToWork
+<br>
+<a href="https://blox-land.onrender.com"class="link1"target="_blank">https://blox-land.onrender.com</a>
+<br>
+<img src="https://raw.githubusercontent.com/SCV2PL/SCV2PL.GitHub.IO/main/BIOHAZARD.gif" width="" height=""/>
+<br>
+<br>
+#Data #DataVisualization #DataScience #DataEngineering #OpenData #OtwarteDane #Poland #Polska #GiantMountains #Karkonosze #Przesieka #Podgórzyn #PowiatKarkonoski #JeleniaGóra
+</span>
+</div>
+<br>
+<br>
+<br>
+</a>
+</center>
+</TD>
+</TABLE>
+<br>
+	
+<a id="PNS">
+<hr class="hr3">
+<hr class="hr4">
+<br>
+<TABLE bgcolor="#313b4e"width="100%"style="border: 1px solid red; border-radius: 6px;">
+<TD valign=top bgcolor=#313b4e style="width: 0px;">
+<br>
+<center>
+<div class="col l500">
+<span class="english">
+Testing Phase
+<br>
+Shaded Map - SARS-CoV-2 Poland
+<br>
+For The Average Daily Number Of Infections From 7 Days / 10,000 Inhabitants From The Population For a Given Region - At The Districts Level
+<br>
++
+<br>
+Slider For Dates - Range 14D
+</span>
+</div>
+<br>
+<embed src="" width="100%" height="583"></embed>
+</a>
+</center>
+</TD>
+</TABLE>
+<br>	
+
+<a id="PNS+14DT">
+<hr class="hr3">
+<hr class="hr4">
+<br>
+<TABLE bgcolor="#313b4e"width="100%"style="border: 1px solid red; border-radius: 6px;">
+<TD valign=top bgcolor=#313b4e style="width: 0px;">
+<center>
+
+<br>
+<a href="https://datawrapper.dwcdn.net/0QLUt"target="_blank"class="button1">Open The Full Screen Map In a New Window</a>
+</a>
+<br>
+<br>
+</a>
+</center>
+</TD>
+</TABLE>
+<br>
+	  
+<hr class="hr3">
+<hr class="hr4">
+<br>
+<TABLE bgcolor="#313b4e"width="100%"style="border: 1px solid red; border-radius: 6px;">
+<TD valign=top bgcolor=#313b4e style="width: 0px;">
+<br>
+<center>
+<span class="english">
+Created by:
+<br>
+BLUE LIQUID OXYGEN - "BLOX": Technical Social Organization - For Creating Useful Social Solutions
+<br>
+<span class="polish">
+Stworzone Przez:
+<br>
+BŁĘKITNY CIEKŁY TLEN - "BLOX": Społeczna Organizacja Techniczna - Dla Tworzenia Rozwiązań Przydatnych Społecznie
+</span>
+<br>
+<br>
+<a href="https://blox-land.onrender.com" target="_blank">
+<img src="https://lukebluelox.github.io/BLOX%20COVER%20B.G.%20-%20UBUNTU.png" alt="" width="500"style="border: 1px solid red;">
+</a>
+<br>
+<br>
+<div class="col l500">
+If you want to go to the main page - click on the picture
+<br>
+<span class="polish">Jeśli chcesz przejść na stronę główną - kliknij obrazek</span>
+</div>
+</center>
+<br>
+</TD>
+</TABLE>
+<br>
+<hr class="hr3">
+<hr class="hr4">
+
